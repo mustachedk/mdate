@@ -1,0 +1,3 @@
+install: 
+FILE="-Dfile=mdate-1.0.aar" 
+mvn install:install-file $FILE -DgroupId=dk.mustache -DartifactId=mdate -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
